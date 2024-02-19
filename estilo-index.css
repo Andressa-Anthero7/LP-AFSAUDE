@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#img-logo{
+	max-height: 6em;
+	width: 6em;
+	
+}
+
+#img-logo-plano{
+	max-height: 5em;
+
+}
+
+html, body, #container {
+    height: 100%;
+}
+
+
+
+header{
+	border-bottom: 3px solid #1d2f57;
+}
+
+#logo-hapvida-copy{
+	max-height: 10em;
+	position: relative;
+	top: -3.6em;
+
+}
+
+#beneficios-plano-saude{
+	width: 100%;
+}
+
+
+
+
+
+
+
+@media(max-width:1023.99px){
+	
+	body{
+		width: 100vw; /* Define a largura igual à largura da viewport */
+    	height: 100vh; /* Define a altura igual à altura da viewport */
+    	margin: 0; /* Remove as margens padrão do body */
+    	overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+		
+		background: rgb(29,47,87);
+		background: -moz-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: -webkit-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background-repeat: no-repeat;
+
+	}
+
+
+	#avatar-medico-mobile{
+		position: relative;
+		top:-8em;
+		left: -8em;
+		max-height: 25em;
+
+	}
+
+	#div-form{
+		position: relative;
+		top: -8em;
+	}
+
+
+
+	.bg-header-beneficios{
+		background:transparent;
+		max-height: 20em;
+	}
+
+	#beneficios-plano-saude{
+		position: relative;
+		top:-8em;
+	}
+
+	#logo-hapvida-sessao-beneficios{
+		position: relative;
+		top: -2em;
+	}
+
+	.card-deck{
+		position: relative;
+		top: -3em;
+	}
+
+	.card{
+		margin-bottom: 2em;
+	}
+
+	.card:hover{
+		transform: scale(1.1);
+	}
+
+}
+
+
+@media(min-width:1024px){
+
+
+	body{
+
+		background: rgb(29,47,87);
+		background: -moz-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: -webkit-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background-repeat: no-repeat;
+
+
+	}
+
+
+	#container{
+		background-image: url('avatar-medico.png');
+		background-repeat: no-repeat;
+		background-position:450px 120px;
+		min-height: 950px;
+
+	}
+
+	#img-logo{
+		position: relative;
+		right: 10%;
+
+	}
+
+	#img-logo-plano{
+		position: relative;
+		left:15%;
+		
+	}
+
+	#copy-lp{
+
+	}
+
+	#text-copy-lp{
+		
+		position: relative;
+		top: 1em;
+		left: 5em;
+	}
+
+	#div-form{
+		position: relative;
+		top:-5em;
+	}
+
+	#avatar-medico-mobile{
+		display: none;
+	}
+
+
+
+	.bg-header-beneficios{
+		background: rgb(29,47,87);
+		background: -moz-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: -webkit-linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background: linear-gradient(0deg, rgba(29,47,87,1) 0%, rgba(73,106,179,1) 100%, rgba(73,106,179,0) 100%);
+		background-repeat: no-repeat;
+		max-height: 20em;
+	}
+
+
+
+	#logo-hapvida-sessao-beneficios{
+		position: relative;
+		top:-12em;
+	}
+
+	#beneficios-plano-saude{
+		position: relative;
+		top: -5em;
+	}
+
+	
+	
+}
+
