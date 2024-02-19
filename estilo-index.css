@@ -47,7 +47,7 @@ header{
 	    margin: 0;
 	    overflow-x: hidden;
 	    
-	    background: rgb(29, 47, 87);
+	    background: rgb(29, 47, 87, 1);
 	    background: -moz-linear-gradient(90deg, rgba(29, 47, 87, 1) 0%, rgba(73, 106, 179, 1) 100%);
 	    background: -webkit-linear-gradient(90deg, rgba(29, 47, 87, 1) 0%, rgba(73, 106, 179, 1) 100%);
 	    background: linear-gradient(90deg, rgba(29, 47, 87, 1) 0%, rgba(73, 106, 179, 1) 100%);
