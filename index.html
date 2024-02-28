@@ -21,21 +21,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página com Bootstrap e jQuery</title>
 
-    <!-- Jquery CDN -->
+    <!-- Jquery CDN --> 
      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
     <!-- Boostrap 4 CDN  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-
-    <!-- FontAwesome CDN -->
+    <!-- Font Awesome 5 CDN -->
     <script src="https://kit.fontawesome.com/a69cec9c91.js" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="fontawesome/css/all.css">
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+
+
+
+
+    
 
      <link rel="stylesheet" type="text/css" href="estilo-index.css">
 
-     <script type="text/javascript"></script>
+     <script type="text/javascript" src="script-index.js"></script>
 
      </head>
 <body>
@@ -134,7 +136,7 @@
                                 <h5>Preencha formulário e garanta seu orçamento personalizado!!!</h5>
                             </div>
                             <!--FORMULARIO -->
-                            <form class="form p-2">
+                            <form class="form p-2" id="form">
                                 <!-- CAMPOS DO FORMULÁRIO -->
                                 <div id="campos-form" class="p-3">
 
@@ -193,30 +195,30 @@
                     <!-- FINAL DO HEADER SESSÃO BENEFÍCIOS -->
 
                     <!-- CARD DECK -->
-                    <div class="card-deck p-2 ">
+                    <div class="card-deck p-2 text-center ">
 
                       <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <i class="fas fa-hospital  font-size-icons"></i>
+                          <h5 class="card-title">Hospital</h5>
                           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <i class="fas fa-clinic-medical font-size-icons"></i>
+                          <h5 class="card-title">Pronto Atendimento</h5>
                           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <i class="fas fa-user-md font-size-icons"></i>
+                          <h5 class="card-title">Médicos Especialistas</h5>
                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
